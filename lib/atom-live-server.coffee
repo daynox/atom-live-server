@@ -18,7 +18,7 @@ module.exports = AtomLiveServer =
       'atom-live-server:start-3000': => @startServer(3000),
       'atom-live-server:start-4000': => @startServer(4000),
       'atom-live-server:start-5000': => @startServer(5000),
-      'atom-live-server:start-8000': => @startServer(8000),
+      'atom-live-server:start-8000': => @startServer(8081),
       'atom-live-server:start-9000': => @startServer(9000)
     }
 
